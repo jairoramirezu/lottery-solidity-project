@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  /* colors */
+  --darkRed: #bf0426;
+  --dark: #0b0e18;
+  --darkBlue: #172d44;
+  --lightBrown: #918e9b;
+  --white: #fff;
+
+  /* font sizes */
+  --medium: 1.2rem;
+  --litle: 0.9rem;
+  --title: 4rem;
+  --subtitle: 1.4rem;
+  --plusub: 1.6rem;
+
+  /* font weigths */
+  --light: 300;
+  --regular: 500;
+  --bold: 600;
+}
+
+body {
+  align-items: center;
+  background-color: var(--dark);
+  color: var(--white);
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 10rem;
+  justify-content: center;
+}
